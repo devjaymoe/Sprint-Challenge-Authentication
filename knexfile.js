@@ -17,7 +17,7 @@ module.exports = {
   testing: {
     client: "sqlite3",
     connection: {
-      filename: ":memory:", // run testing on ram vs database file for increased performance
+      filename: "./database/test.db3",
     },
     useNullAsDefault: true,
     migrations: {
